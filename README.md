@@ -20,11 +20,12 @@ The default values for the learning rate, batch size and number of epochs are gi
 
 Note the decrease in training loss and corresponding decrease in validation errors.
 
-  a) Add code to plot out the network weights as images (one for each output, of size 28 by 28) after the last epoch. (Hint threads: #1 #2 )
-  b) Reduce the number of training examples to just 50.
+  a. Add code to plot out the network weights as images (one for each output, of size 28 by 28) after the last epoch. (Hint threads: #1 #2 )
+  b. Reduce the number of training examples to just 50.
   
-3. a) Add an extra layer to the network with 1000 hidden units and a tanh non-linearity. [Hint: modify the Net class] and train the model for 10 epochs.
-   b) Now set the learning rate to 10 and retrain.
+3. 
+   a. Add an extra layer to the network with 1000 hidden units and a tanh non-linearity. [Hint: modify the Net class] and train the model for 10 epochs.
+   b. Now set the learning rate to 10 and retrain.
    
    
 4. To change over to the CIFAR-10 dataset, change the options cell's dataset variable to 'cifar10'.
