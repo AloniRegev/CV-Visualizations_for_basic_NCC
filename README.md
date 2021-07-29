@@ -30,6 +30,7 @@ Note the decrease in training loss and corresponding decrease in validation erro
 4. To change over to the CIFAR-10 dataset, change the options cell's dataset variable to 'cifar10'.
 
 Create a convolutional network with the following architecture:
+
 Convolution with 5 by 5 filters, 16 feature maps + Tanh nonlinearity.
 2 by 2 max pooling (non-overlapping).
 Convolution with 5 by 5 filters, 128 feature maps + Tanh nonlinearity.
